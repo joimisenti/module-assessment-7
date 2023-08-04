@@ -39,7 +39,7 @@ const addToZero = (arr) => {
 // console.log(addToZero([28, 43, -12, 30, 4, 0, 12]));
 // console.log(addToZero([28, 43, -11, 30, 4, 0, 12]));
 
-// Runtime:
+// Runtime: O(n^2)
 // Q: What is the space complexity of this function?
 // ANSWER: O(1)
 
@@ -73,7 +73,7 @@ const hasUniqueChars = (word) => {
 console.log(hasUniqueChars("Monday"));
 console.log(hasUniqueChars("Moonday"))
 
-// Runtime:
+// Runtime: O(n^2)
 // Q: What is the space complexity of this function?
 // ANSWER: O(1)
 
@@ -107,7 +107,7 @@ const isPangram = (sentence) => {
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
 
 
-// Runtime:
+// Runtime: O(n)
 // Q: What is the space complexity of this function?
 // ANSWER: O(1)
 
@@ -134,6 +134,6 @@ const findLongestWord = (wordList) => {
 
 console.log(findLongestWord(["hi", "hello"]))
 
-// Runtime:
+// Runtime: O(n^2)
 // Q: What is the space complexity of this function?
-// ANSWER: O(1)
+// ANSWER: O(n)
