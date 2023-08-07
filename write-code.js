@@ -93,11 +93,11 @@ console.log(hasUniqueChars("Moonday"))
 */
 
 const isPangram = (sentence) => {
-    let sentArr = sentence.toLowerCase();
+    let lowerCaseSentence = sentence.toLowerCase();
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
     for (let i = 0; i < alphabet.length; i++) {
-        if(sentArr.indexOf(alphabet[i]) < 0) {
+        if(lowerCaseSentence.indexOf(alphabet[i]) < 0) {
             return false;
         }
     }
@@ -134,6 +134,6 @@ const findLongestWord = (wordList) => {
 
 console.log(findLongestWord(["hi", "hello"]))
 
-// Runtime: O(n^2)
+// Runtime: O(n)
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(1)
